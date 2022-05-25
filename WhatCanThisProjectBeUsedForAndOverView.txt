@@ -1,7 +1,9 @@
-This project is made of background images that expand when clicked on. 
+This project is a game that generates images of your favourite bug on screen for the User to click away. Each time the User clicks the insect amount doubles.
+
+When the score get to 20 points the User is shown a prompt asking if they're annoyed yet
 
 It uses Flexbox, CSS transitions and JavaScript
 
 This could be converted to be used in (for example) the following ways
 
-- 
+- fun little game

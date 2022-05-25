@@ -9,10 +9,49 @@
      <!--Link to FontAwesome icons-->
     <script src="https://kit.fontawesome.com/440b431b9d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>My Project Starter</title>
+    <title>Catch the Insect</title>
 </head>
 <body>
-    <h1>Project starter</h1>
+    <div class="screen">
+        <h1>Catch the Insect </h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    
+    <div class="screen">
+        <h1>What is your "favourite" insect?</h1>
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="/images/fly.png" alt="Fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Ladybird</p>
+                    <img src="/images/ladybug.png" alt="Ladybird">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Cricket</p>
+                    <img src="/images/grasshopper.png" alt="Grasshopper">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Butterfly</p>
+                    <img src="/images/butterfly.png" alt="Butterfly">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 class="time" id="time">Time: 00:00</h3>
+        <h3 class="score" id="score">Score: 0</h3>
+        <h5 class="message" id="message">Are you bugged out yet? <br> You're playing an unwinnable game!</h5>
+    </div>
     
     <script src="script.js"></script>
 </body>
